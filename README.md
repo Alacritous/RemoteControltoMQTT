@@ -16,7 +16,7 @@ For example, my setup uses Node-Red. I have a flow set up to monitor the incomin
 ![image](https://user-images.githubusercontent.com/1443724/144650829-97e17943-2d36-4a76-82f9-73506b6d2710.png)
 
 
-When the code "3405409" comes in when I push a fob button, I can then use it to set another node to output to a switch or trigger an event or send a web request or turn on or off a light. The possibilities are endless. 
+When the code "9492484" comes in when I push a fob button, I can then use it to set another node to output to a switch or trigger an event or send a web request or turn on or off a light. The possibilities are endless. 
 
 ![image](https://user-images.githubusercontent.com/1443724/144652041-435a5de9-4d54-4b79-80ea-135da52b8117.png)
 
