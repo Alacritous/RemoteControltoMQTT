@@ -1,6 +1,8 @@
 # RemoteControltoMQTT
 Receive 433 MHz remote control signals on an ESP8266 and send code to MQTT to decide what to do with it. 
 
+You may need to install extra libraries. The libraries are either available directly in the Arduino IDE or you can download them from the URLs shown in the file at the top as comments on the include lines. 
+
 It's pretty simple. Get the 433 MHz Radio reciever of your choice, I bought mine from Aliexpress, and connect the data out pin of the receiver to the data in pin(D6 on a Wemos D1 Mini in my code here) and change the settings in the code section "USER CONFIG" to match your local setup. The only changes you should need to make to the file are in the "USER CONFIG" section. 
 
 That will send any incoming remote control keypresses to your MQTT server and set the default topi "RadioTrans" to the incoming code. 
