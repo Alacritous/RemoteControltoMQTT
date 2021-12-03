@@ -18,5 +18,9 @@ For example, my setup uses Node-Red. I have a flow set up to monitor the incomin
 
 When the code "3405409" comes in when I push a fob button, I can then use it to set another node to output to a switch or trigger an event or send a web request or turn on or off a light. The possibilities are endless. 
 
+![image](https://user-images.githubusercontent.com/1443724/144652041-435a5de9-4d54-4b79-80ea-135da52b8117.png)
+
+The switch node can be used to isolate the incoming code and then decide what to do with each code as they arrive. There's no limit to the number of incoming codes. 
+
 This is just my simple implementation of this process. Others have done it and it has been integrated into some of the home automation packages. 
 
