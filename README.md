@@ -5,7 +5,7 @@ You may need to install extra libraries. The libraries are either available dire
 
 It's pretty simple. Get the 433 MHz Radio reciever of your choice, I bought mine from Aliexpress, and connect the data out pin of the receiver to the data in pin(D6 on a Wemos D1 Mini in my code here) and change the settings in the code section "USER CONFIG" to match your local setup. The only changes you should need to make to the file are in the "USER CONFIG" section. 
 
-That will send any incoming remote control keypresses to your MQTT server and set the default topi "RadioTrans" to the incoming code. 
+That will send any incoming remote control keypresses to your MQTT server and set the default topic "RadioTrans" to the incoming code. 
 
 You can then use whatever method you like to then decide what to do when any given code comes in. 
 
